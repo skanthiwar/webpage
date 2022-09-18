@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-image: url(Eye.jpg);
+}
+.Wrapper{
+    display: flex;
+    position: relative;
+}
+/* My Menu */
+.Wrapper .Vertical{ 
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #7f8d8d;
+    padding: 20px 0;
+}
+.Wrapper .Vertical h2{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Wrapper .Vertical ul li{
+    padding: 35px;
+    border-bottom: 1px solid rgb(63, 60, 60);
+    border-top: 2px solid rgba(44, 42, 42, 0.1);
+}
+.Wrapper .Vertical ul li a{
+    color: #ffffff;
+    display: block;
+}
+.Wrapper .Vertical ul li a .fa-solid{
+    width: 30px;
+}
+/* point in my menu */
+.Wrapper .Vertical ul li :hover{
+    background: #7f8d8d;
+}
+.Wrapper .Vertical ul li :hover{
+    color: rgb(4, 4, 4);
+}
+.Wrapper .Main_Content{
+    width: 320px;
+    margin-left: 200px;
+}
+.Wrapper .Main_Content .Header{
+    padding: 20px;
+    background: rgb(57, 66, 67);
+    color: #fffdfd;
+    border: 3px solid #cfcfcf;
+}
+.Wrapper .Main_Content .Info{
+    margin: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
